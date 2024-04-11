@@ -72,5 +72,159 @@
         "logo": "https://www.nccn.org/favicon.ico"
       }
     ]
+  },
+  {
+    "_id": "doctor_exam",
+    "classify": "Doctor Exam",
+    "icon": "ti-user",
+    "sites": [
+      {
+        "name": "United States Medical Licensing Examination (USMLE)",
+        "href": "https://www.usmle.org/",
+        "desc": "Administers examinations for medical licensure in the United States.",
+        "logo": "https://www.usmle.org/favicon.ico"
+      },
+      {
+        "name": "European Board of Medical Assessors (EBMA)",
+        "href": "https://www.ebma.eu/",
+        "desc": "Independent organization providing assessment services for medical professionals in Europe.",
+        "logo": "https://www.ebma.eu/assets/img/favicon.png"
+      },
+      {
+        "name": "General Medical Council (GMC) - UK",
+        "href": "https://www.gmc-uk.org/",
+        "desc": "Responsible for registering doctors to practice medicine in the United Kingdom.",
+        "logo": "https://www.gmc-uk.org/static/img/favicon.ico"
+      },
+      {
+        "name": "Bundesärztekammer (German Medical Association)",
+        "href": "https://www.bundesaerztekammer.de/",
+        "desc": "Represents the medical profession in Germany and provides information on medical examinations.",
+        "logo": "https://www.bundesaerztekammer.de/favicon.ico"
+      },
+      {
+        "name": "Japan Medical Association (JMA)",
+        "href": "https://www.med.or.jp/english/",
+        "desc": "Provides information on medical examinations and certification in Japan.",
+        "logo": "https://www.med.or.jp/favicon.ico"
+      },
+      {
+        "name": "National Medical Examination Center (NMEC) - China",
+        "href": "http://www.nmec.org.cn/",
+        "desc": "Responsible for organizing and implementing medical licensing examinations in China.",
+        "logo": "http://www.nmec.org.cn/favicon.ico"
+      },
+      {
+        "name": "Medical Council of India (MCI)",
+        "href": "https://www.mciindia.org/",
+        "desc": "Regulatory body for medical education and registration of medical practitioners in India.",
+        "logo": "https://www.mciindia.org/favicon.ico"
+      }
+    ]
+  },
+  {
+    "_id": "nurse_exam",
+    "classify": "Nurse Exam",
+    "icon": "ti-wheelchair",
+    "sites": [
+      {
+        "name": "National Council of State Boards of Nursing (NCSBN) - US",
+        "href": "https://www.ncsbn.org/",
+        "desc": "Develops and administers the NCLEX-RN and NCLEX-PN examinations for nursing licensure in the United States.",
+        "logo": "https://www.ncsbn.org/favicon.ico"
+      },
+      {
+        "name": "Nursing and Midwifery Council (NMC) - UK",
+        "href": "https://www.nmc.org.uk/",
+        "desc": "Regulates nurses and midwives in the United Kingdom and administers the nursing licensing exam.",
+        "logo": "https://www.nmc.org.uk/favicon.ico"
+      },
+      {
+        "name": "European Nursing Council (ENC)",
+        "href": "https://www.nursingeurope.org/",
+        "desc": "Organization working towards standardization of nursing education and examination in Europe.",
+        "logo": "https://www.nursingeurope.org/img/logo.png"
+      },
+      {
+        "name": "Japan Nursing Association (JNA)",
+        "href": "https://www.nurse.or.jp/nurseeng/",
+        "desc": "Provides information on nursing certification examinations in Japan.",
+        "logo": "https://www.nurse.or.jp/favicon.ico"
+      },
+      {
+        "name": "Indian Nursing Council (INC)",
+        "href": "https://www.indiannursingcouncil.org/",
+        "desc": "Regulatory body for nursing education and practice in India.",
+        "logo": "https://www.indiannursingcouncil.org/favicon.ico"
+      }
+    ]
+  },
+  {
+    "_id": "pharmacist_exam",
+    "classify": "Pharmacist Exam",
+    "icon": "ti-tablet",
+    "sites": [
+      {
+        "name": "North American Pharmacist Licensure Examination (NAPLEX)",
+        "href": "https://nabp.pharmacy/programs/naplex/",
+        "desc": "Standard examination for pharmacists in the United States and Canada.",
+        "logo": "https://nabp.pharmacy/wp-content/themes/NABP-WP/favicon.ico"
+      },
+      {
+        "name": "Pharmacy Examining Board of Canada (PEBC)",
+        "href": "https://www.pebc.ca/",
+        "desc": "Provides licensure and certification examinations for pharmacists in Canada.",
+        "logo": "https://www.pebc.ca/wp-content/uploads/2021/04/cropped-favicon-32x32.png"
+      },
+      {
+        "name": "General Pharmaceutical Council (GPhC) - UK",
+        "href": "https://www.pharmacyregulation.org/",
+        "desc": "Regulates pharmacists, pharmacy technicians, and pharmacies in the United Kingdom.",
+        "logo": "https://www.pharmacyregulation.org/wp-content/themes/gphc/images/favicon.ico"
+      },
+      {
+        "name": "Bundesapothekerkammer (German Pharmacists Association)",
+        "href": "https://www.abda.de/",
+        "desc": "Represents pharmacists in Germany and provides information on licensing examinations.",
+        "logo": "https://www.abda.de/wp-content/themes/abda/assets/img/abda-favicon.ico"
+      },
+      {
+        "name": "Pharmacy Examining Committee of Canada (PECC)",
+        "href": "https://www.pebc.ca/",
+        "desc": "Regulates pharmacy practice in Canada and administers the Qualifying Examination for pharmacy practice.",
+        "logo": "https://www.pebc.ca/wp-content/uploads/2021/04/cropped-favicon-32x32.png"
+      }
+    ]
+  },
+  {
+    "_id": "medical_technologist_exam",
+    "classify": "Medical Technologist Exam",
+    "icon": "ti-settings",
+    "sites": [
+      {
+        "name": "American Society for Clinical Pathology (ASCP) Board of Certification",
+        "href": "https://www.ascp.org/content/board-of-certification",
+        "desc": "Offers various certification examinations for medical laboratory professionals in the United States.",
+        "logo": "https://www.ascp.org/sitewide-assets/images/favicon.ico"
+      },
+      {
+        "name": "Health and Care Professions Council (HCPC) - UK",
+        "href": "https://www.hcpc-uk.org/",
+        "desc": "Regulates health and care professions, including biomedical scientists, in the United Kingdom.",
+        "logo": "https://www.hcpc-uk.org/wp-content/uploads/2020/05/favicons-1.png"
+      },
+      {
+        "name": "Japan Association of Medical Technologists (JAMT)",
+        "href": "https://www.jamt.or.jp/en/",
+        "desc": "Provides information on certification examinations for medical technologists in Japan.",
+        "logo": "https://www.jamt.or.jp/en/wp-content/uploads/sites/3/2021/02/favicon-32x32.png"
+      },
+      {
+        "name": "Indian Association of Medical Technologists (IAMT)",
+        "href": "https://iamt.org.in/",
+        "desc": "Professional association for medical technologists in India.",
+        "logo": "https://iamt.org.in/wp-content/uploads/2020/04/cropped-favicon-32x32.png"
+      }
+    ]
   }
 ]
