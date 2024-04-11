@@ -1,185 +1,75 @@
 [
   {
-    "_id": "ruanjian",
-    "classify": "软件·社区",
-    "icon": "ti-download",
+    "_id": "clinical_research",
+    "classify": "Clinical Research",
+    "icon": "ti-heart-broken",
     "sites": [
       {
-        "name": "photopea",
-        "href": "https://www.photopea.com/",
-        "desc": "在线ps，支持绝大多数功能。",
-        "logo": "static/icons/photopea.com.png"
+        "name": "ClinicalTrials.gov",
+        "href": "https://clinicaltrials.gov/",
+        "desc": "A database of privately and publicly funded clinical studies conducted around the world.",
+        "logo": "https://clinicaltrials.gov/favicon.ico"
+      },
+      {
+        "name": "NIH Clinical Research Trials and You",
+        "href": "https://www.nih.gov/health-information/nih-clinical-research-trials-you",
+        "desc": "Information about clinical trials and why they matter, from the National Institutes of Health (NIH).",
+        "logo": "https://www.nih.gov/themes/custom/nih/favicon.ico"
+      },
+      {
+        "name": "European Medicines Agency (EMA) Clinical Trials Database",
+        "href": "https://www.ema.europa.eu/en/human-regulatory/research-development/clinical-trials",
+        "desc": "Database of clinical trials conducted in the European Union (EU) and European Economic Area (EEA).",
+        "logo": "https://www.ema.europa.eu/favicon.ico"
+      },
+      {
+        "name": "Japan Registry of Clinical Trials",
+        "href": "https://jrct.niph.go.jp/en/",
+        "desc": "A public platform for the registration of clinical trials conducted in Japan.",
+        "logo": "https://jrct.niph.go.jp/favicon.ico"
+      },
+      {
+        "name": "Chinese Clinical Trial Registry (ChiCTR)",
+        "href": "http://www.chictr.org.cn/enindex.aspx",
+        "desc": "The Chinese Clinical Trial Registry, providing information on clinical trials conducted in China.",
+        "logo": "http://www.chictr.org.cn/favicon.ico"
+      },
+      {
+        "name": "Clinical Trials Registry - India (CTRI)",
+        "href": "http://ctri.nic.in/Clinicaltrials/login.php",
+        "desc": "The Clinical Trials Registry - India, a freely accessible online registry of clinical trials in India.",
+        "logo": "http://ctri.nic.in/Clinicaltrials/images/favicon.ico"
       }
     ]
   },
   {
-    "_id": "yunpan",
-    "classify": "云盘储存",
-    "icon": "ti-cloud",
+    "_id": "clinical_guidelines",
+    "classify": "Clinical Guidelines",
+    "icon": "ti-book",
     "sites": [
       {
-        "name": "OneDrive",
-        "href": "http://onedrive.com/",
-        "desc": "微软云存储，支持在线Offiec编辑",
-        "logo": "static/icons/onedrive.live.com.ico"
+        "name": "National Institute for Health and Care Excellence (NICE)",
+        "href": "https://www.nice.org.uk/",
+        "desc": "Produces evidence-based guidance and advice for health, public health, and social care practitioners.",
+        "logo": "https://www.nice.org.uk/favicon.ico"
       },
       {
-        "name": "DropBox",
-        "href": "https://www.dropbox.com/",
-        "desc": "全球最优秀的在线云存储",
-        "logo": "static/icons/dropbox.com.png"
+        "name": "American College of Cardiology (ACC) Clinical Guidelines",
+        "href": "https://www.acc.org/guidelines",
+        "desc": "Clinical guidelines from the American College of Cardiology (ACC) covering various cardiovascular conditions.",
+        "logo": "https://www.acc.org/favicon.ico"
       },
       {
-        "name": "GoogleDrive",
-        "href": "https://www.google.com/intl/zh-CN/drive/",
-        "desc": "Google在线云存储服务",
-        "logo": "static/icons/drive.google.com.png"
+        "name": "European Society of Cardiology (ESC) Clinical Practice Guidelines",
+        "href": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines",
+        "desc": "Clinical practice guidelines from the European Society of Cardiology (ESC) on cardiovascular disease management.",
+        "logo": "https://www.escardio.org/favicon.ico"
       },
       {
-        "name": "iCloud",
-        "href": "https://www.icloud.com/",
-        "desc": "苹果在线存储和云服务",
-        "logo": "static/icons/icloud.com.png"
-      },
-      {
-        "name": "Firefox Send",
-        "href": "https://send.firefox.com/",
-        "desc": "火狐提供的快传网盘",
-        "logo": "static/icons/firefox.com.svg"
-      }
-    ]
-  },
-  {
-    "_id": "daohang",
-    "classify": "分类导航",
-    "icon": "ti-bookmark-alt",
-    "sites": [
-      {
-        "name": "医学导航",
-        "href": "http://meddir.cn/",
-        "desc": "医学类网站导航",
-        "logo": "no-logo"
-      }
-    ]
-  },
-  {
-    "_id": "wangpan",
-    "classify": "资源搜索",
-    "icon": "ti-search",
-    "sites": [
-      {
-        "name": "TheFuture",
-        "href": "https://bks.thefuture.top/",
-        "desc": "书籍搜索，提供网盘下载",
-        "logo": "https://bks.thefuture.top/bk.png"
-      }
-    ]
-  },
-  {
-    "_id": "quwei",
-    "classify": "趣味网站",
-    "icon": "ti-package",
-    "sites": [
-      {
-        "name": "imgur",
-        "href": "http://imgur.com/",
-        "desc": "全球免费的图片分享和图床网站",
-        "logo": "static/icons/imgur.com.png"
-      }
-    ]
-  },
-  {
-    "_id": "wangluo",
-    "classify": "网络工具",
-    "icon": "ti-rocket",
-    "sites": [
-      {
-        "name": "十分钟邮箱",
-        "href": "http://mail.bccto.me/",
-        "desc": "创建一个十分钟内可用的临时邮箱。",
-        "logo": "http://mail.bccto.me/static/favicon.ico"
-      },
-      {
-        "name": "qiuziti",
-        "href": "http://www.qiuziti.com/",
-        "desc": "中文上传图片字体查找",
-        "logo": "static/icons/qiuziti.com.ico"
-      },
-      {
-        "name": "PDFcandy",
-        "href": "https://pdfcandy.com/",
-        "desc": "汇集众多常用PDF在线工具",
-        "logo": "http://chuangzaoshi.com/assets/images/D/pdfcandy.png"
-      },
-      {
-        "name": "草料二维码",
-        "href": "https://cli.im/",
-        "desc": "国内创建二维码在线应用",
-        "logo": "static/icons/cli.im.ico"
-      },
-      {
-        "name": "optimizilla",
-        "href": "http://optimizilla.com/",
-        "desc": "支持JPEG和PNG格式在线压缩工具",
-        "logo": "http://chuangzaoshi.com/assets/images/D/optimizilla.png"
-      },
-      {
-        "name": "bigjpg",
-        "href": "https://bigjpg.com/",
-        "desc": "图片智能算法无损放大",
-       
-
- "logo": "static/icons/bigjpg.com.ico"
-      },
-      {
-        "name": "Goimg.io",
-        "href": "https://goimg.io/",
-        "desc": "智能在线图片压缩",
-        "logo": "static/icons/img.top.ico"
-      },
-      {
-        "name": "Squoosh",
-        "href": "https://squoosh.app/",
-        "desc": "Google在线优化压缩图片(支持webp)",
-        "logo": "http://chuangzaoshi.com/assets/images/D/squoosh.png"
-      }
-    ]
-  },
-  {
-    "_id": "linggan",
-    "classify": "灵感`图素",
-    "icon": "ti-light-bulb",
-    "sites": [
-      {
-        "name": "pixabay",
-        "href": "https://pixabay.com/",
-        "desc": "高清图片站",
-        "logo": "static/icons/pixabay.com.png"
-      },
-      {
-        "name": "unsplash",
-        "href": "https://unsplash.com/",
-        "desc": "高清图片站",
-        "logo": "static/icons/unsplash.com.ico"
-      },
-      {
-        "name": "pexels",
-        "href": "https://www.pexels.com/zh-cn/",
-        "desc": "可商用图片站-支持中文",
-        "logo": "static/icons/pexels.com.ico"
-      }
-    ]
-  },
-  {
-    "_id": "blog",
-    "classify": "优秀博客",
-    "icon": "ti-medall-alt",
-    "sites": [
-      {
-        "name": "Rat's Blog",
-        "href": "https://www.moerats.com/",
-        "desc": "KMS、VPS、Aria2相关主机与建站技术分享",
-        "logo": "https://www.moerats.com/usr/picture/favicon.ico"
+        "name": "National Comprehensive Cancer Network (NCCN) Guidelines",
+        "href": "https://www.nccn.org/professionals/physician_gls/default.aspx",
+        "desc": "Evidence-based clinical practice guidelines for various cancers.",
+        "logo": "https://www.nccn.org/favicon.ico"
       }
     ]
   }
