@@ -1,6 +1,6 @@
 # README
 
-#### 自定义json结构（与原始json基本一致，删除desc简介，增加filter分组）：
+#### Custom json structure (basically the same as the original json, delete the desc introduction, and add filter grouping):
 ```json
     [{
     "_id": "", //分类简称
@@ -14,31 +14,26 @@
         }]
     }]
 ```
-#### 自定义json结构说明
-主要目标是为了工作与日常分离，在工作电脑上和自用电脑上使用不同json或分类；
-可以使用不同json地址，或者同一json地址使用不同filter区分；
-多个分类可以使用同一filter分组
+#### Custom json structure description:
+The main goal is to separate work from daily life and use different json or categories on work computers and personal computers;
+You can use different json addresses, or use different filters to distinguish the same json address;
+Multiple categories can be grouped using the same filter
 
-#### 自定义参数地址跨域说明
-如果使用别人搭建或本地调试页面，自定义url与导航页url不在同一个域名下，必须对自定义url开启允许跨域访问；
-- 托管在github上的json可以直接获取raw地址进行引用；
-- 阿里云OSS开启跨域访问教程参考地址：
-[https://help.aliyun.com/document_detail/31903.html?spm=a2c4g.11186623.2.15.3724c451vMxt3K#concept-pbw-4df-vdb]
-其中 来源 与 header 必填，不知道怎么填的直接*号，methods允许get与head；
+#### Cross-domain description of custom parameter address:
+If you use someone else to build or debug the page locally, and the custom URL and the navigation page URL are not under the same domain name, you must enable cross-domain access for the custom URL;
+- The json hosted on github can directly obtain the raw address for reference;
 
 
 TODO：
-- [x] 网址带json地址参数访问（便于放一些不方便展示或按需求展示）；
+- [x] The URL is accessed with json address parameters (convenient to display some inconvenient items or display on demand);
 
-- [ ] 小工具(当前网址生成二维码、当前网址生成短网址)；
+- [ ] Widget (current URL generates QR code, current URL generates short URL);
 
-- [ ] 本地书签自定义添加；
+- [ ] Customized addition of local bookmarks;
 
 
 
-# 其他说明 
+# Other instructions: 
 
-- json中分类标题icon来自字体图标库[themify-icons](https://themify.me/themify-icons)；
-- logo是我一分钟随手画的，应该没有侵权问题  吧；
-- vscode文件夹是用vscode调试自动生成的，可以无视；
-- 本项目基于MIT许可协议开源。
+- The category title icon in json comes from the font icon library [themify-icons](https://themify.me/themify-icons);
+- This project is open source based on the MIT license.
